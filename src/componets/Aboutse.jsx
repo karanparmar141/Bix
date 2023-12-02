@@ -34,6 +34,7 @@ const Aboutse = () => {
                                 <p className='pt-4 fs-1 fw-bold text-white text-uppercase'>HELPS YOU TO FIND YOUR NEXT <span className='text-primary'>motorbike</span> EASILY</p>
                                 <p className='text-white fs-5'>The glamour of ten decades can be this timeless and modern. This motorcycle was, is and remains a design icon. A statement. This limited edition is an icon thanks to its attention to historic details. And its willingness to be glamorous. A fair bit from being modest. The generous use of chrome lends it its radiance. A true masterpiece.</p>
                                 <p className='text-white fs-5'>Customized motorcycle. Not for sale. The vehicles shown are modified and equipped with third-party accessories and/or proprietary parts that are neither manufactured, distributed nor tested by BMW. BMW assumes no liability for the modifications (including the installation, characteristics and use of the accessories shown).</p>
+                                <p className='text-white fs-5 fw-semibold text-uppercase'>more about us <i class="bi bi-arrow-up-right"></i></p>
                             </div>
                         </Col>
                     </Row>

@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.swiper-pagination-bullet-active {
+    background-color: var(--bs-primary);
+}
+
 // comman class, properties and id 
 .font-primary {
     font-family: 'Lalezar';
@@ -22,6 +26,7 @@ body {
     --bs-secondary: #575757;
     --bs-secondary-rgb: 87, 87, 87;
 }
+
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #00c77400;
@@ -38,6 +43,7 @@ body {
     --bs-btn-disabled-bg: #00c774;
     --bs-btn-disabled-border-color: #00c774
 }
+
 .fs-90 {
     font-size: 90px;
 }
@@ -48,6 +54,10 @@ body {
 
 img {
     width: 100%;
+    overflow: hidden;
+}
+.transform-rotate-180{
+    transform: rotate(180deg);
 }
 
 // banner section 
@@ -84,16 +94,18 @@ img {
     border-radius: 8px;
     background: rgba(164, 160, 160, 0.87);
 }
-.acc-bg:last-child{
+
+.acc-bg:last-child {
     background-color: var(--bs-primary);
 }
 
-.about-img{
-    .img-content{
+.about-img {
+    .img-content {
         top: 55%;
-        right:15%;
+        right: 15%;
         background-color: #333;
-        .img-box{
+
+        .img-box {
             width: 44px;
             height: 44px;
         }
@@ -101,28 +113,42 @@ img {
 }
 
 @media (max-width:575px) {
-    .about-img{
-        .img-content{
+    .about-img {
+        .img-content {
             top: 65%;
-            right:20%;
+            right: 20%;
             background-color: #333;
-            .img-box{
+
+            .img-box {
                 width: 44px;
                 height: 44px;
             }
         }
-    } 
+    }
 }
+
 @media (max-width:767px) {
-    .about-img{
-        .img-content{
+    .about-img {
+        .img-content {
             top: 75%;
-            right:25%;
+            right: 25%;
             background-color: #333;
-            .img-box{
+
+            .img-box {
                 width: 44px;
                 height: 44px;
             }
         }
-    } 
+    }
+}
+
+.bg-app {
+    background-image: url('../assests/gijs-coolen-t1gNzD88PDs-unsplash-768x512\ 1.jpg');
+    background-size: cover;
+    .app-img-content {
+        background: linear-gradient(90deg, rgba(0, 198, 117, 0.00) -15.1%, #00C675 99.96%, rgba(0, 198, 117, 0.15) 99.96%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }

@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.swiper-pagination-bullet-active {
+  background-color: var(--bs-primary);
+}
+
 .font-primary {
   font-family: "Lalezar";
 }
@@ -48,6 +52,11 @@ body {
 
 img {
   width: 100%;
+  overflow: hidden;
+}
+
+.transform-rotate-180 {
+  transform: rotate(180deg);
 }
 
 .bg-banner {
@@ -118,4 +127,14 @@ img {
     width: 44px;
     height: 44px;
   }
+}
+.bg-app {
+  background-image: url("../assests/gijs-coolen-t1gNzD88PDs-unsplash-768x512 1.jpg");
+  background-size: cover;
+}
+.bg-app .app-img-content {
+  background: linear-gradient(90deg, rgba(0, 198, 117, 0) -15.1%, #00C675 99.96%, rgba(0, 198, 117, 0.15) 99.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
