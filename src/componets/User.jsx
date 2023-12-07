@@ -77,7 +77,7 @@ const User = () => {
                 {
             login ?
               <Col sm={12} className='p-4 '>
-                <form onSubmit={HandelLogin}>
+                <form onSubmit={HandelLogin} method='POST' action='http://localhost:8090/login'>
                   <input type="email" className='col-12 border border-2 border-white bg-transparent p-2 rounded text-white mb-4 text-capitalize' onChange={HandelInput}
                     name='email' placeholder='enter your email' />
                   <input type="password" className='col-12 border border-2 border-white bg-transparent p-2 rounded text-white mb-4 text-capitalize' onChange={HandelInput}
@@ -88,7 +88,7 @@ const User = () => {
               </Col>
               :
               <Col sm={12} className='p-4' >
-                <form onSubmit={HandelSign}>
+                <form onSubmit={HandelSign} method='POST' action='http://localhost:8090/signup'>
                   <input type="text" className='col-12 border border-2 border-white bg-transparent p-2 rounded text-white mb-4 text-capitalize' onChange={HandelInput} name='username' placeholder='enter your username' />
                   <input type="email" className='col-12 border border-2 border-white bg-transparent p-2 rounded text-white mb-4 text-capitalize' onChange={HandelInput} name='email' placeholder='enter your email' />
                   <input type="password" className='col-12 border border-2 border-white bg-transparent p-2 rounded text-white mb-4 text-capitalize' onChange={HandelInput} name='password' placeholder='enter the password' />
